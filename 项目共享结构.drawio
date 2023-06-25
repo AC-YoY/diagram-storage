@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T07:12:37.821Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ryJ1aBAIrKRtsZ_jA29F" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T07:15:24.709Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tkMhH9Axwd08xhyOOp1i" version="21.0.8" type="github">
   <diagram name="Page-1" id="XsqB8b9VYWxZf0B4IzV1">
     <mxGraphModel dx="1910" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,20 +28,11 @@
         <mxCell id="VD_UxQhcJUa0Sc6m_3p2-15" value="账户升级&lt;br&gt;（弹窗）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="VD_UxQhcJUa0Sc6m_3p2-31">
           <mxGeometry x="520" y="25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VD_UxQhcJUa0Sc6m_3p2-2" value="Home" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="260" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="VD_UxQhcJUa0Sc6m_3p2-3" value="Trade" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VD_UxQhcJUa0Sc6m_3p2-8" value="土站" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="260" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="VD_UxQhcJUa0Sc6m_3p2-9" value="Trade&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;独立写的一部份" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="300" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VD_UxQhcJUa0Sc6m_3p2-10" value="Testnet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="300" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VD_UxQhcJUa0Sc6m_3p2-11" value="Trade" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="300" width="120" height="60" as="geometry" />
@@ -63,6 +54,15 @@
         </mxCell>
         <mxCell id="VD_UxQhcJUa0Sc6m_3p2-28" value="共享 ws 数据层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VD_UxQhcJUa0Sc6m_3p2-30">
           <mxGeometry width="111.8421052631579" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VD_UxQhcJUa0Sc6m_3p2-2" value="Home" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VD_UxQhcJUa0Sc6m_3p2-8" value="土站" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VD_UxQhcJUa0Sc6m_3p2-10" value="Testnet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
