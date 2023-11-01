@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T08:53:02.812Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="omouHqjtsthyBWanXFwO" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T08:59:25.751Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="JmXU-Tq8oli-jaOn8akZ" version="21.8.0" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1772" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1930" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,11 +19,20 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="XHh2MtFzzOAAZeAn6uru-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-1">
+          <mxGeometry x="45" y="220" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XHh2MtFzzOAAZeAn6uru-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-1">
+          <mxGeometry x="45" y="370" width="10" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="Phemex" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="220" y="40" width="100" height="550" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XHh2MtFzzOAAZeAn6uru-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
+          <mxGeometry x="45" y="360" width="10" height="130" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="/phemex-user/twitter-login" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="aM9ryv3xv72pqoxQDRHE-2" target="aM9ryv3xv72pqoxQDRHE-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -48,6 +57,18 @@
         <mxCell id="XHh2MtFzzOAAZeAn6uru-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="XHh2MtFzzOAAZeAn6uru-1">
           <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="XHh2MtFzzOAAZeAn6uru-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="XHh2MtFzzOAAZeAn6uru-1">
+          <mxGeometry x="45" y="210" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XHh2MtFzzOAAZeAn6uru-10" value="用户授权" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;rounded=0;" edge="1" parent="XHh2MtFzzOAAZeAn6uru-1" source="XHh2MtFzzOAAZeAn6uru-9" target="XHh2MtFzzOAAZeAn6uru-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="230" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="135" y="230" />
+            </Array>
+            <mxPoint x="449.5" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="XHh2MtFzzOAAZeAn6uru-4" value="oauth/request_token" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="XHh2MtFzzOAAZeAn6uru-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="130" as="sourcePoint" />
@@ -60,13 +81,32 @@
         <mxCell id="XHh2MtFzzOAAZeAn6uru-5" value="App Key&amp;amp;Secret" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="315" y="78" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XHh2MtFzzOAAZeAn6uru-6" value="302, redirectUrl 拼接&lt;br&gt;&amp;nbsp;oauth token &amp;amp; secret" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-1">
-          <mxGeometry x="-0.0306" y="-10" relative="1" as="geometry">
+        <mxCell id="XHh2MtFzzOAAZeAn6uru-6" value="oauth token &amp;amp; secret" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-1">
+          <mxGeometry x="-0.0281" y="-10" relative="1" as="geometry">
             <mxPoint x="-40" y="210" as="targetPoint" />
             <Array as="points">
               <mxPoint x="245" y="210" />
             </Array>
             <mxPoint x="140" y="210" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHh2MtFzzOAAZeAn6uru-8" value="redirect to /twitter-login 拼接上 token &amp;amp; secrect" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="160" y="300" />
+            </Array>
+            <mxPoint x="474.5" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHh2MtFzzOAAZeAn6uru-11" value="oauth token &amp;amp;&amp;nbsp;verifier" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="XHh2MtFzzOAAZeAn6uru-1">
+          <mxGeometry x="-0.0281" y="-10" relative="1" as="geometry">
+            <mxPoint x="90" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="245" y="370" />
+            </Array>
+            <mxPoint x="265" y="370" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
