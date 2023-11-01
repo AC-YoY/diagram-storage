@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T08:59:25.751Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="JmXU-Tq8oli-jaOn8akZ" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T12:44:25.579Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="5Wvz25pIKetatTVb0i3i" version="21.8.0" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1930" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,6 +69,9 @@
             <mxPoint x="449.5" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="XHh2MtFzzOAAZeAn6uru-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="XHh2MtFzzOAAZeAn6uru-1">
+          <mxGeometry x="45" y="360" width="10" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="XHh2MtFzzOAAZeAn6uru-4" value="oauth/request_token" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="XHh2MtFzzOAAZeAn6uru-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="130" as="sourcePoint" />
@@ -100,13 +103,53 @@
             <mxPoint x="474.5" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XHh2MtFzzOAAZeAn6uru-11" value="oauth token &amp;amp;&amp;nbsp;verifier" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="XHh2MtFzzOAAZeAn6uru-1">
+        <mxCell id="XHh2MtFzzOAAZeAn6uru-11" value="oauth token &amp;amp;&amp;nbsp;verifier" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0281" y="-10" relative="1" as="geometry">
-            <mxPoint x="90" y="370" as="targetPoint" />
+            <mxPoint x="90" y="360" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="245" y="370" />
+              <mxPoint x="245" y="360" />
             </Array>
-            <mxPoint x="265" y="370" as="sourcePoint" />
+            <mxPoint x="474.50000000000045" y="360" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHh2MtFzzOAAZeAn6uru-14" value="oauth/access_token" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0834" y="10" relative="1" as="geometry">
+            <mxPoint x="89.63043478260875" y="430" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="200" y="430" />
+            </Array>
+            <mxPoint x="265" y="430" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHh2MtFzzOAAZeAn6uru-15" value="包装转发" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;rounded=0;" edge="1" parent="1" source="XHh2MtFzzOAAZeAn6uru-13" target="XHh2MtFzzOAAZeAn6uru-17">
+          <mxGeometry x="-0.0834" y="10" relative="1" as="geometry">
+            <mxPoint x="282.31043478260875" y="440" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="392.68" y="440" />
+            </Array>
+            <mxPoint x="457.68" y="440" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHh2MtFzzOAAZeAn6uru-16" value="oauth token &amp;amp;&amp;nbsp;verifier" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0281" y="-10" relative="1" as="geometry">
+            <mxPoint x="272.5" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="387.5" y="490" />
+            </Array>
+            <mxPoint x="467.5" y="490" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHh2MtFzzOAAZeAn6uru-18" value="oauth token &amp;amp;&amp;nbsp;verifier" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="XHh2MtFzzOAAZeAn6uru-13" target="XHh2MtFzzOAAZeAn6uru-12">
+          <mxGeometry x="-0.0281" y="-10" relative="1" as="geometry">
+            <mxPoint x="80" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="195" y="510" />
+            </Array>
+            <mxPoint x="275" y="510" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
