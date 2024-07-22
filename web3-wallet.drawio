@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-22T12:12:08.028Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="1HKKvt8aps8BhMocArmw" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-22T12:12:21.901Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="adVtSi2LVuCRxjpntwWt" version="24.7.1" type="github">
   <diagram name="Page-1" id="gTH3hmJ2dXAmlFIHOVHT">
     <mxGraphModel dx="1080" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="4AqPaRntUeFQtPL4BdUv-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="500" as="sourcePoint" />
-            <mxPoint x="680" y="500" as="targetPoint" />
+            <mxPoint x="810" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4AqPaRntUeFQtPL4BdUv-11" value="Client Api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -44,10 +44,10 @@
           <mxGeometry x="150" y="240" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4AqPaRntUeFQtPL4BdUv-14" value="私钥&lt;br&gt;本地存储/签名" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="630" y="545" width="100" height="40" as="geometry" />
+          <mxGeometry x="620" y="570" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4AqPaRntUeFQtPL4BdUv-17" value="Json - RPC&lt;br&gt;异步签名（插件 / walletConnect）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="630" y="670" width="200" height="40" as="geometry" />
+          <mxGeometry x="620" y="695" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
