@@ -29,7 +29,7 @@
         <mxCell id="HFTwr3PVIvaT_SFdeNqt-16" value="&lt;div&gt;全仓挂单占用 + 全仓持仓占用 + 逐仓挂单占用 + 借款占用 + 现货挂单交易损失 + 现货挂单预估手续费&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HFTwr3PVIvaT_SFdeNqt-15">
           <mxGeometry y="30" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HFTwr3PVIvaT_SFdeNqt-18" value="&lt;span style=&quot;text-align: left;&quot;&gt;跨资产合约预留保证&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HFTwr3PVIvaT_SFdeNqt-18" value="&lt;span style=&quot;text-align: left;&quot;&gt;跨资产合约预留保证金&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="240" width="760" height="120" as="geometry" />
         </mxCell>
         <mxCell id="HFTwr3PVIvaT_SFdeNqt-20" value="&lt;div&gt;Sum【所有币种的跨资产担保保证金 * 币种USDT价格】* 0.1 +&amp;nbsp;&lt;/div&gt;&lt;div&gt;Max（0，Sum【所有币种的全仓可用权益 * 币种USDT价格 * 币种折算率】- Max（0，结算币种的全仓可用权益 * 币种USDT价格））* 0.1&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HFTwr3PVIvaT_SFdeNqt-18">
@@ -92,11 +92,11 @@
         <mxCell id="HFTwr3PVIvaT_SFdeNqt-60" value="&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;钱包余额&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-520" y="-410" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HFTwr3PVIvaT_SFdeNqt-61" value="&lt;span style=&quot;text-align: left;&quot;&gt;跨资产担保保证金&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="-300" width="140" height="60" as="geometry" />
+        <mxCell id="HFTwr3PVIvaT_SFdeNqt-61" value="&lt;span style=&quot;text-align: left;&quot;&gt;合约跨资产担保保证金&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-360" width="450" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="HFTwr3PVIvaT_SFdeNqt-62" value="-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HFTwr3PVIvaT_SFdeNqt-61">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        <mxCell id="HFTwr3PVIvaT_SFdeNqt-62" value="Max（全仓挂单占用 + 逐仓保证金 + 逐仓挂单占用 - 钱包可用余额 - 全仓浮盈，0）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HFTwr3PVIvaT_SFdeNqt-61">
+          <mxGeometry y="30" width="450" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HFTwr3PVIvaT_SFdeNqt-63" value="&lt;span style=&quot;text-align: left;&quot;&gt;全仓可用权益&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="-30" width="210" height="60" as="geometry" />
@@ -118,6 +118,12 @@
         </mxCell>
         <mxCell id="HFTwr3PVIvaT_SFdeNqt-69" value="现货挂单占用" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HFTwr3PVIvaT_SFdeNqt-68">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HFTwr3PVIvaT_SFdeNqt-73" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;钱包可用余额&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="-410" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HFTwr3PVIvaT_SFdeNqt-74" value="&lt;span id=&quot;docs-internal-guid-ebde03c9-7fff-1dc7-ac11-59d686706613&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Max（0，钱包余额 - 余额占用）&lt;/span&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HFTwr3PVIvaT_SFdeNqt-73">
+          <mxGeometry y="30" width="270" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
