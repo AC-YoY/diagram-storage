@@ -13,8 +13,14 @@
         <mxCell id="RCnPXYuESLlPWEanavmd-6" value="S3&lt;br&gt;对象存储" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="451" y="270" width="120" height="160" as="geometry" />
         </mxCell>
+        <mxCell id="Oyd27a4m4s1aycdATicv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RCnPXYuESLlPWEanavmd-1" target="RCnPXYuESLlPWEanavmd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RCnPXYuESLlPWEanavmd-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="210" width="120" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Oyd27a4m4s1aycdATicv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RCnPXYuESLlPWEanavmd-2" target="RCnPXYuESLlPWEanavmd-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RCnPXYuESLlPWEanavmd-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="245" y="210" width="120" height="550" as="geometry" />
