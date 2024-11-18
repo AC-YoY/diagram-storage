@@ -188,7 +188,7 @@
         <mxCell id="PSdSYdDdRvpplrhtHOjU-11" value="1.1 Init Web Bridge" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="PSdSYdDdRvpplrhtHOjU-7">
           <mxGeometry x="30" y="230" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PSdSYdDdRvpplrhtHOjU-12" value="1.2 Send to app" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="PSdSYdDdRvpplrhtHOjU-7">
+        <mxCell id="PSdSYdDdRvpplrhtHOjU-12" value="1.2 PostMessage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="PSdSYdDdRvpplrhtHOjU-7">
           <mxGeometry x="30" y="70" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PSdSYdDdRvpplrhtHOjU-14" value="2.1 Init web global Func" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="PSdSYdDdRvpplrhtHOjU-7">
@@ -200,7 +200,7 @@
             <mxPoint x="368" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PSdSYdDdRvpplrhtHOjU-15" value="2.2 Send to web" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="PSdSYdDdRvpplrhtHOjU-7">
+        <mxCell id="PSdSYdDdRvpplrhtHOjU-15" value="2.2 Call Func" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="PSdSYdDdRvpplrhtHOjU-7">
           <mxGeometry x="390" y="70" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
