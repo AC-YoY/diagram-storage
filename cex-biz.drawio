@@ -120,13 +120,13 @@
         <mxCell id="m5YjbhBy6BerH0YrV47M-5" value="Data&lt;span style=&quot;background-color: initial;&quot;&gt;Gateway&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="600" y="230" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="m5YjbhBy6BerH0YrV47M-6" value="S3" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e1d5e7;" vertex="1" parent="1">
+        <mxCell id="m5YjbhBy6BerH0YrV47M-6" value="S3" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="510" y="320" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="m5YjbhBy6BerH0YrV47M-7" value="nginx" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="510" y="500" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="m5YjbhBy6BerH0YrV47M-8" value="Lambda" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e1d5e7;" vertex="1" parent="1">
+        <mxCell id="m5YjbhBy6BerH0YrV47M-8" value="Lambda" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="510" y="410" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="B1ye1kVESPhD4aPcWaz_-1" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#ffe6cc;" vertex="1" parent="1">
