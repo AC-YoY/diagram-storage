@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6" pages="2">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="phemex-biz">
-    <mxGraphModel dx="199" dy="1155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="209" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,6 +96,20 @@
         </mxCell>
         <mxCell id="0YKfsS_AYH9b1rfMTJRU-37" value="链上交易" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1270" y="1150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="https://github.com/phemex-docs/phemex-docs.github.io" link="https://github.com/phemex-docs/phemex-docs.github.io" id="FjKKf8T0YkrXWxgYTaFp-1">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="1170" y="1710" width="330" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="FjKKf8T0YkrXWxgYTaFp-2" value="API 文档" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FjKKf8T0YkrXWxgYTaFp-3" value="Github&lt;br&gt;&lt;br&gt;phemex-docs/phemex-docs.github.io" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1400" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FjKKf8T0YkrXWxgYTaFp-4" value="API 交易文档" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1400" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
