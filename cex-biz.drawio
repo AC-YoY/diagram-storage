@@ -207,17 +207,17 @@
     </mxGraphModel>
   </diagram>
   <diagram id="J7L9BrtJ2vZUAHcA2YTU" name="private-npm">
-    <mxGraphModel dx="1242" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1035" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-27" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="150" y="90" width="750" height="630" as="geometry" />
         </mxCell>
-        <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-1" value="本地开发" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-27">
+        <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-1" value="本地开发" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;shadow=1;" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-27">
           <mxGeometry y="30" width="110" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-18" value="" style="group" vertex="1" connectable="0" parent="B8LPAhrQ7Cfh7NGsNH3q-27">
+        <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-18" value="" style="group;shadow=1;" vertex="1" connectable="0" parent="B8LPAhrQ7Cfh7NGsNH3q-27">
           <mxGeometry x="620" width="130" height="630" as="geometry" />
         </mxCell>
         <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-16" value="registry.npmjs.org" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-18">
@@ -226,7 +226,7 @@
         <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-17" value="npm 官方源" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-18">
           <mxGeometry width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-20" value="" style="group" vertex="1" connectable="0" parent="B8LPAhrQ7Cfh7NGsNH3q-27">
+        <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-20" value="" style="group;shadow=1;" vertex="1" connectable="0" parent="B8LPAhrQ7Cfh7NGsNH3q-27">
           <mxGeometry x="300" width="350" height="630" as="geometry" />
         </mxCell>
         <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-14" value="" style="group" vertex="1" connectable="0" parent="B8LPAhrQ7Cfh7NGsNH3q-20">
@@ -259,7 +259,7 @@
         <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-19" value="JFrog 机器" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-20">
           <mxGeometry width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-24" value="" style="group" vertex="1" connectable="0" parent="B8LPAhrQ7Cfh7NGsNH3q-27">
+        <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-24" value="" style="group;shadow=0;" vertex="1" connectable="0" parent="B8LPAhrQ7Cfh7NGsNH3q-27">
           <mxGeometry x="150" width="110" height="630" as="geometry" />
         </mxCell>
         <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-3" value="&lt;span style=&quot;&quot;&gt;jfrog.cmex.corp&lt;/span&gt;&lt;b&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-24">
@@ -268,7 +268,7 @@
         <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-23" value="JFrog Domain" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-24">
           <mxGeometry width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-25" value="Jen&lt;span style=&quot;background-color: initial;&quot;&gt;kins 打包环境&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-27">
+        <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-25" value="Jen&lt;span style=&quot;background-color: initial;&quot;&gt;kins 打包环境&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;shadow=1;" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-27">
           <mxGeometry y="340" width="110" height="290" as="geometry" />
         </mxCell>
         <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-26" value="客户端" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-27">
