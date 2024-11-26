@@ -241,7 +241,7 @@
         <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-13" value="内网 IP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-14">
           <mxGeometry y="300" width="80" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-10" value="" style="group;align=left;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" connectable="0" parent="B8LPAhrQ7Cfh7NGsNH3q-14">
+        <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-10" value="" style="group;align=left;fillColor=#b0e3e6;strokeColor=none;" vertex="1" connectable="0" parent="B8LPAhrQ7Cfh7NGsNH3q-14">
           <mxGeometry x="100" y="100" width="160" height="400" as="geometry" />
         </mxCell>
         <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-7" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;virtual&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#b0e3e6;strokeColor=none;" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-10">
