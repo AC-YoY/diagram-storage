@@ -247,10 +247,10 @@
         <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-7" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;virtual&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#b0e3e6;strokeColor=none;" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-10">
           <mxGeometry width="160" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-9" value="remote" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=none;" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-10">
+        <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-9" value="remote" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-10">
           <mxGeometry x="20" y="220" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-32" value="local" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=none;" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-10">
+        <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-32" value="local" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-10">
           <mxGeometry x="20" y="70" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="B8LPAhrQ7Cfh7NGsNH3q-15" value="npm 相关源" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="B8LPAhrQ7Cfh7NGsNH3q-14">
