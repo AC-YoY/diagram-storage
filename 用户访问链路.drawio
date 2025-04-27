@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="A8cSzCeEmLXzz6vHc0UO">
-    <mxGraphModel>
+    <mxGraphModel dx="-868" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3InamGHf78_3qM0vHMMI-1" value="Client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-2" value="CDN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="560" width="80" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-3" value="Load&lt;br&gt;Balancer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="560" width="80" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-4" value="Node SSR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="560" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-5" value="Nginx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="1010" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-6" value="S3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="830" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-7" value="Lambda" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="920" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-8" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="1010" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-9" value="Web Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="670" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-10" value="Data Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="750" width="460" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-11" value="Load Balancer&lt;br&gt;For Node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="560" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-12" value="Web Gateway&lt;br&gt;For Node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="560" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-13" value="Java Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="560" width="140" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-14" value="Cpp Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="750" width="140" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-15" value="Client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-16" value="Client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-17" value="Client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-18" value="Client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="960" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3InamGHf78_3qM0vHMMI-19" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="1060" width="80" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
