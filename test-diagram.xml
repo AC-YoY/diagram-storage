@@ -1,1 +1,82 @@
-<mxfile modified="2019-01-09T03:53:31.670Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" version="10.0.25" etag="Gm3QAkx0LoVSIFEYxJ_j" type="github"><diagram id="4YtLa3FjxnTh3QXPV6rc" name="小程序登录">7Vpbk5s2FP41mmkfNgPi/gheaNpp+7LtJNs3GRRDgxED8tqbX18dIQwYb0K2trGT5GEjjoSMzqfznYuEjMV690tFyvQPltAcYS3ZIeMeYaxblin+A8lzI3Et3AhWVZaoQZ3gIftElVBT0k2W0HowkDOW86wcCmNWFDTmAxmpKrYdDvvA8uGvlmRFR4KHmORj6bss4alaBXY6+VuardL2l3Xba3rWpB2sVlKnJGHbnsgIkbGoGONNa71b0ByU1+qlYiSOrbI2yo937/1/8pD+/faumSz6mlf2S6howU87NbbV2vhzqzCaCP2pR1bxlK1YQfKwkwYV2xQJhWk18ZTydS6aumjSXcbfg/iNpZ4e256CV8+9Lnh8VBP8Szl/VhuHbDgTou53f2esVHM0Xwqfd4DsF9SixtVsU8X0c7pQu5NUK/q5+dw99sJoKFtTsRbxXkVzwrOn4ccRtXtX+3EdQqKhQPoawJp5n0i+Ub+EQg95C+RqKHSRbyNXR6GDPA8FAQotFNwjz4KGGBP4KLShy48QtnOxyGBZidaK79Xb2wgdzKD9bZpx+lASqcKt4Ioh9OqzaMXp7hXwjNWpZjFa61P0Y6vHbWfLejsk7dlxO+7kAOjGWSymZy89E7lyi7EmWoz+AsaXMRn9LBynf9uIWXMiZo1JTtFVWdGOrxpRXZJiLxP05huSCwXPRcgXM2mbImPFr4loSakL7Ad8qAFbCqoUPOnpIPFD5PnAokGEXAcGux5y5aQNeY44s0wFcD7MjCOxDrFnuGgtSU03NRWjojil8ccyZQVtXxbCwRd34sHaXuRibT4uxrY14GJDG5OxEI7J2DwXGbdR3I/wRYUlE0x7Vss29HMANuRiPCTjAV5N561Bhr05MXOPhJyWpMZ7oE8/kITqIjdEgSO7IuTZfeK9hcBSd5w31tyxpf56xycifQ00D4i40mtZ4LIayTAb+EkB8/PYof1Gnsjeo+3iXQ67C0fKm+VslRWncmQzYn8AveEcSSq8iwJvjoB/nJChCbXwocYqWmefyFIOAOYrWVZw+bVWgKx7IQG+qxvqgxdInq0K0c7pB5gKdJ3FJPeVmAMXwk6Ls2L1lyTGO/OMyOzVrqDB3pEQ4wgy+GwRhnVSh3UDcYQ+OUeYtRBinCX0u9VIYjJohj0naPq0zG5KeAFezQRXB2maK7tG+VozWHTdkG+yjKtzTs4ItD+/A1dkWVfminTvEq5IvyZWm5ogzVtgxKctCd9CjDA5c8Wzupsjqev0QmJgSPcifIhwLAsUCk+yEK6mV07EASgVqnvFZr0UKZIa4/Vj92hULDxaKdzSOCV8mRVJf8LbLxqazpBGTXdMo4Z+SX/WEnRvV9CqKhggKp5AAIXN7zD7wu4hVu4IK+ei2derCyJ9RLHmiX/a/zOmbw9t+yDStGxnhPaxQPN81Xw8RruJ5f2FPNkRDV0ys96ez/hwxAOpgI9cU56Em1DsCuUhD5xyX2WIf3COYhvmSPGXLTwa+KQRzNFDbWeQTO8jnV7ntUQ32JsY3cx7E8SbxI1Hc2k/UgkzWJIs5wchHH+GJpx9NkYm8m3fUim0bxyNaORUDvSCmYbI60r+t5Nwm97QGq/hIMBwf9jjYc3q6m8ttJ95eFAWyesFHtxKcGXD92U+Ic2wua3ly64XrxfYZA3GUCzr8qV8BUcxW69ZAcHNuoa/tEhEK66eS/5i5HON9ug4Xy6AYe001igeu/ubsq93C9YI/wM=</diagram></mxfile>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.4">
+  <diagram id="4YtLa3FjxnTh3QXPV6rc" name="小程序登录">
+    <mxGraphModel dx="1113" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-0" />
+        <mxCell id="roacc5ps3pk-XAZlEeUH-1" parent="roacc5ps3pk-XAZlEeUH-0" />
+        <mxCell id="roacc5ps3pk-XAZlEeUH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;" parent="roacc5ps3pk-XAZlEeUH-1" source="roacc5ps3pk-XAZlEeUH-2" target="roacc5ps3pk-XAZlEeUH-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-2" value="需要登录场景&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="roacc5ps3pk-XAZlEeUH-1" vertex="1">
+          <mxGeometry x="320" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;" parent="roacc5ps3pk-XAZlEeUH-1" source="roacc5ps3pk-XAZlEeUH-5" target="roacc5ps3pk-XAZlEeUH-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;" parent="roacc5ps3pk-XAZlEeUH-1" source="roacc5ps3pk-XAZlEeUH-5" target="roacc5ps3pk-XAZlEeUH-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-5" value="&lt;pre&gt;&lt;span&gt;检查 unionId 是否绑定过手机&lt;br&gt;php: /account/baseuser/checkphone&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="roacc5ps3pk-XAZlEeUH-1" vertex="1">
+          <mxGeometry x="252.5" y="300" width="255" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;" parent="roacc5ps3pk-XAZlEeUH-1" source="roacc5ps3pk-XAZlEeUH-8" target="roacc5ps3pk-XAZlEeUH-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.25;entryX=0;entryY=0.25;jettySize=auto;orthogonalLoop=1;" parent="roacc5ps3pk-XAZlEeUH-1" source="roacc5ps3pk-XAZlEeUH-8" target="roacc5ps3pk-XAZlEeUH-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-8" value="前端获取 unionId" style="rounded=1;whiteSpace=wrap;html=1;" parent="roacc5ps3pk-XAZlEeUH-1" vertex="1">
+          <mxGeometry x="320" y="177.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-11" value="&lt;pre&gt;&lt;span&gt;小程序登录(unionId)&lt;br&gt;Java: /xcxlive/user/login&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="roacc5ps3pk-XAZlEeUH-1" vertex="1">
+          <mxGeometry x="20" y="370" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-14" value="Y&lt;br&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="roacc5ps3pk-XAZlEeUH-1" vertex="1">
+          <mxGeometry x="190" y="290" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;" parent="roacc5ps3pk-XAZlEeUH-1" source="roacc5ps3pk-XAZlEeUH-15" target="roacc5ps3pk-XAZlEeUH-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.25;entryX=0;entryY=0.25;jettySize=auto;orthogonalLoop=1;" parent="roacc5ps3pk-XAZlEeUH-1" source="roacc5ps3pk-XAZlEeUH-15" target="roacc5ps3pk-XAZlEeUH-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-15" value="&lt;pre&gt;前端获取用户手机号&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="roacc5ps3pk-XAZlEeUH-1" vertex="1">
+          <mxGeometry x="540" y="370" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-17" value="N" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="roacc5ps3pk-XAZlEeUH-1" vertex="1">
+          <mxGeometry x="550" y="290" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=1;jettySize=auto;orthogonalLoop=1;" parent="roacc5ps3pk-XAZlEeUH-1" source="roacc5ps3pk-XAZlEeUH-18" target="roacc5ps3pk-XAZlEeUH-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;" parent="roacc5ps3pk-XAZlEeUH-1" source="roacc5ps3pk-XAZlEeUH-18" target="roacc5ps3pk-XAZlEeUH-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-18" value="&lt;pre&gt;&lt;span&gt;注册（unionId + phonenumber）&lt;br/&gt;php: account/baseuser/wechatbindphonenumber&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="roacc5ps3pk-XAZlEeUH-1" vertex="1">
+          <mxGeometry x="470" y="480" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-20" value="errno == 0&lt;br&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="roacc5ps3pk-XAZlEeUH-1" vertex="1">
+          <mxGeometry x="280" y="488" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-21" value="&lt;pre&gt;&lt;span&gt;errno = 99990&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="roacc5ps3pk-XAZlEeUH-1" vertex="1">
+          <mxGeometry x="640" y="564.5" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-22" value="本次汇报的错误" style="rounded=1;whiteSpace=wrap;html=1;" parent="roacc5ps3pk-XAZlEeUH-1" vertex="1">
+          <mxGeometry x="575" y="634" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.75;entryX=1;entryY=0.75;jettySize=auto;orthogonalLoop=1;" parent="roacc5ps3pk-XAZlEeUH-1" source="roacc5ps3pk-XAZlEeUH-29" target="roacc5ps3pk-XAZlEeUH-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-29" value="&lt;pre&gt;前端请求微信接口&lt;br/&gt;解析unionId&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="roacc5ps3pk-XAZlEeUH-1" vertex="1">
+          <mxGeometry x="500" y="177.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.75;entryX=1;entryY=0.75;jettySize=auto;orthogonalLoop=1;" parent="roacc5ps3pk-XAZlEeUH-1" source="roacc5ps3pk-XAZlEeUH-36" target="roacc5ps3pk-XAZlEeUH-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="roacc5ps3pk-XAZlEeUH-36" value="发送验证码&lt;br&gt;php:&amp;nbsp;&lt;span&gt;/common/sms/sendsmscrypt&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="roacc5ps3pk-XAZlEeUH-1" vertex="1">
+          <mxGeometry x="827" y="370" width="200" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
