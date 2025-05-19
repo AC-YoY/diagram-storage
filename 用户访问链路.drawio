@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6" pages="9">
   <diagram name="用户访问链路" id="A8cSzCeEmLXzz6vHc0UO">
     <mxGraphModel dx="-868" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -930,6 +930,59 @@
         </mxCell>
         <mxCell id="Xh45ay93Pfc410RBSJcG-20" value="Waf&lt;br&gt;防火墙" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="235" y="425" width="100" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-5pT6YVTOmFeBb3PdjUv" name="web3-wallet">
+    <mxGraphModel dx="786" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q8SUT0qkrA896iAZzjGH-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="70" y="320" width="490" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8SUT0qkrA896iAZzjGH-2" value="" style="group" vertex="1" connectable="0" parent="Q8SUT0qkrA896iAZzjGH-1">
+          <mxGeometry x="-10" width="500" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8SUT0qkrA896iAZzjGH-3" value="" style="group" vertex="1" connectable="0" parent="Q8SUT0qkrA896iAZzjGH-2">
+          <mxGeometry x="90" width="410" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8SUT0qkrA896iAZzjGH-4" value="Account / EOA&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Properties&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;address,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;balance,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;nonce,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;optional(storage, code)&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="Q8SUT0qkrA896iAZzjGH-3">
+          <mxGeometry width="410" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8SUT0qkrA896iAZzjGH-5" value="private key, optional" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Q8SUT0qkrA896iAZzjGH-3">
+          <mxGeometry y="220" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8SUT0qkrA896iAZzjGH-6" value="UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Q8SUT0qkrA896iAZzjGH-3">
+          <mxGeometry y="170" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8SUT0qkrA896iAZzjGH-7" value="Account 概念" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q8SUT0qkrA896iAZzjGH-2">
+          <mxGeometry width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8SUT0qkrA896iAZzjGH-8" value="Wallet 概念" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q8SUT0qkrA896iAZzjGH-2">
+          <mxGeometry x="10" y="170" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8SUT0qkrA896iAZzjGH-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="300" as="sourcePoint" />
+            <mxPoint x="810" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8SUT0qkrA896iAZzjGH-10" value="Client Api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8SUT0qkrA896iAZzjGH-11" value="Viem =&amp;gt; ethers.js / web3.js" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="130" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8SUT0qkrA896iAZzjGH-12" value="wagmi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="40" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8SUT0qkrA896iAZzjGH-13" value="私钥&lt;br&gt;本地存储/签名" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="370" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8SUT0qkrA896iAZzjGH-14" value="Json - RPC&lt;br&gt;异步签名（插件 / walletConnect）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="495" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
