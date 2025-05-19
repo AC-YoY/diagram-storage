@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6" pages="5">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="phemex-biz">
     <mxGraphModel dx="490" dy="2109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -326,6 +326,74 @@
           <mxGeometry x="-0.9319" relative="1" as="geometry">
             <mxPoint x="4" y="-2" as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tImN4KsDAt8Cb2DxgW_6" name="项目共享">
+    <mxGraphModel dx="786" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Va9C-uUud8y-nG5imKkM-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="200" width="850" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;horizontal=1;" vertex="1" parent="Va9C-uUud8y-nG5imKkM-1">
+          <mxGeometry width="850" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-3" value="页面/项目" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Va9C-uUud8y-nG5imKkM-1">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="40" width="850" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;horizontal=1;" vertex="1" parent="Va9C-uUud8y-nG5imKkM-4">
+          <mxGeometry width="850" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-6" value="UI 组件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Va9C-uUud8y-nG5imKkM-4">
+          <mxGeometry width="67.10526315789474" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-7" value="资金划转&lt;br&gt;（弹窗）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Va9C-uUud8y-nG5imKkM-4">
+          <mxGeometry x="210" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-8" value="账户升级&lt;br&gt;（弹窗）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Va9C-uUud8y-nG5imKkM-4">
+          <mxGeometry x="520" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-9" value="Trade" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-10" value="Trade&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;独立写的一部份" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="290" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-11" value="Trade" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-12" value="账户界面&lt;br&gt;（多个页面）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="210" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-13" value="账户界面&lt;br&gt;（多个页面）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-14" value="账户界面&lt;br&gt;（多个页面）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="740" y="210" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-15" value="" style="group;strokeWidth=2;perimeterSpacing=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="420" width="850" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-16" value="ws-data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Va9C-uUud8y-nG5imKkM-15">
+          <mxGeometry width="850" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-17" value="共享 ws 数据层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Va9C-uUud8y-nG5imKkM-15">
+          <mxGeometry width="111.8421052631579" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-18" value="Home" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-19" value="土站" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Va9C-uUud8y-nG5imKkM-20" value="Testnet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
