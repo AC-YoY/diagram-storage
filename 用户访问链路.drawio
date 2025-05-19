@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6" pages="8">
   <diagram name="用户访问链路" id="A8cSzCeEmLXzz6vHc0UO">
     <mxGraphModel dx="-868" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -862,6 +862,74 @@
             <mxPoint x="340" y="590" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vCYG9JJygBgu2jsKg06G" name="web cache">
+    <mxGraphModel dx="786" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Xh45ay93Pfc410RBSJcG-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="401" y="70" width="220" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-2" value="S3&lt;br&gt;对象存储" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441" y="120" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-3" value="S3&lt;br&gt;对象存储" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="431" y="130" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xh45ay93Pfc410RBSJcG-5" target="Xh45ay93Pfc410RBSJcG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="120" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xh45ay93Pfc410RBSJcG-7" target="Xh45ay93Pfc410RBSJcG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="70" width="120" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-8" value="S3 (对象存储)&lt;br&gt;不同 Bucket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="421" y="140" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-9" value="EC2&lt;br&gt;服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="501" y="350" width="90" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-10" value="Nginx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="421" y="350" width="100" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-11" value="源数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="396" y="40" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-12" value="CDN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xh45ay93Pfc410RBSJcG-14" target="Xh45ay93Pfc410RBSJcG-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-14" value="CloudFront&lt;br&gt;节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="185" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-15" value="client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-16" value="client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="300" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-17" value="client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="370" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-18" value="终端用户" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xh45ay93Pfc410RBSJcG-20" target="Xh45ay93Pfc410RBSJcG-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xh45ay93Pfc410RBSJcG-20" value="Waf&lt;br&gt;防火墙" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="425" width="100" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
