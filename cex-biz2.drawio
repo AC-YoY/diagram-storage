@@ -128,13 +128,13 @@
         <mxCell id="NuILZa4hiqY3Oqihs5Eh-18" value="公网" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;shadow=1;verticalAlign=top;align=left;strokeColor=none;" vertex="1" parent="RuAyS5kQikPbMtsUxQxa-1">
           <mxGeometry x="1815" y="-390" width="920" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="NuILZa4hiqY3Oqihs5Eh-19" value="CMS 前台页面" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="RuAyS5kQikPbMtsUxQxa-1">
+        <mxCell id="NuILZa4hiqY3Oqihs5Eh-19" value="CMS 前台页面" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;strokeColor=none;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="RuAyS5kQikPbMtsUxQxa-1">
           <mxGeometry x="2205" y="-370" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NuILZa4hiqY3Oqihs5Eh-54" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#B9E0A5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;strokeWidth=2;" edge="1" parent="RuAyS5kQikPbMtsUxQxa-1" source="NuILZa4hiqY3Oqihs5Eh-20" target="NuILZa4hiqY3Oqihs5Eh-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NuILZa4hiqY3Oqihs5Eh-20" value="CMS 管理后台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="RuAyS5kQikPbMtsUxQxa-1">
+        <mxCell id="NuILZa4hiqY3Oqihs5Eh-20" value="CMS 管理后台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;strokeColor=none;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="RuAyS5kQikPbMtsUxQxa-1">
           <mxGeometry x="2000" y="-526" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NuILZa4hiqY3Oqihs5Eh-22" value="web gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;labelBackgroundColor=none;labelBorderColor=none;shadow=1;" vertex="1" parent="RuAyS5kQikPbMtsUxQxa-1">
