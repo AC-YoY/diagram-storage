@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="xrSVYY3m2yPj_9DbM3Vk">
-    <mxGraphModel dx="907" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="907" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EirYOmCO2bs8OiHq1PWi-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#E6FFCC;" value="内网" vertex="1">
+        <mxCell id="EirYOmCO2bs8OiHq1PWi-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#E6FFCC;strokeColor=none;" value="内网" vertex="1">
           <mxGeometry height="570" width="320" x="420" y="20" as="geometry" />
         </mxCell>
         <mxCell id="EirYOmCO2bs8OiHq1PWi-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="独立网段 2" vertex="1">
@@ -13,7 +13,7 @@
         <mxCell id="EirYOmCO2bs8OiHq1PWi-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="独立网段 1" vertex="1">
           <mxGeometry height="380" width="260" x="450" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="EirYOmCO2bs8OiHq1PWi-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;labelBackgroundColor=none;fillColor=#FFCCCC;" value="公网" vertex="1">
+        <mxCell id="EirYOmCO2bs8OiHq1PWi-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;labelBackgroundColor=none;fillColor=#FFCCCC;strokeColor=none;" value="公网" vertex="1">
           <mxGeometry height="570" width="300" x="120" y="20" as="geometry" />
         </mxCell>
         <mxCell id="EirYOmCO2bs8OiHq1PWi-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=none;" value="FE" vertex="1">
@@ -31,11 +31,14 @@
         <mxCell id="EirYOmCO2bs8OiHq1PWi-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Engine Se&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;rvice&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="520" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="EirYOmCO2bs8OiHq1PWi-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=none;" value="AI BFF service&lt;br&gt;(biz &amp;amp; auth)" vertex="1">
+        <mxCell id="EirYOmCO2bs8OiHq1PWi-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=none;" value="AI BFF service&lt;br&gt;(ai biz &amp;amp; auth)" vertex="1">
           <mxGeometry height="60" width="120" x="520" y="330" as="geometry" />
         </mxCell>
         <mxCell id="EirYOmCO2bs8OiHq1PWi-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=none;" value="AI Runtime&lt;br&gt;(orchestrator &amp;amp; core)" vertex="1">
           <mxGeometry height="60" width="120" x="520" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="EirYOmCO2bs8OiHq1PWi-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="大致的服务关系" vertex="1">
+          <mxGeometry height="30" width="100" x="120" y="-30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
